@@ -14,4 +14,4 @@ RUN echo 'root:root' | chpasswd
 EXPOSE 22
 
 # 启动 Shellinabox
-CMD ["/usr/bin/shellinabox", "-s", "/:LOGIN"]
+# CMD ["/usr/bin/shellinabox", "-s", "/:LOGIN"]
